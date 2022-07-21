@@ -22,7 +22,7 @@
 
       #pixel-board {
         display: grid;
-        grid-template-columns: 40px 40px 40px 40px 40px;
+        grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
       }
 
       .selected {
@@ -57,7 +57,7 @@
 
           function gerarPixels() {
           const caixaPixels = document.getElementById( 'pixel-board' );
-            for ( let i = 1; i <= 25; i += 1 ) {
+            for ( let i = 1; i <= 100; i += 1 ) {
               const pixel = document.createElement('div');
               pixel.className = 'pixel';
               pixel.style.backgroundColor = 'white';
